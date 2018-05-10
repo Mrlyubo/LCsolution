@@ -4,7 +4,8 @@ package java_study;
 import java.util.Map;
 import java.util.HashMap;
 
-class TwoSum {
+class 1TwoSum {
+	//answer start
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
         if(nums == null||nums.length<2){
@@ -22,18 +23,19 @@ class TwoSum {
         }
         return res;
 
-    }
-    public void printres(int[] res){
+    }//answer end. 
+	
+	public void printres(int[] res){
         for(int i:res){
             System.out.println(i);
         }
     }
 
-        public static void main(String[] args){
+	public static void main(String[] args){
             TwoSum Launcher= new TwoSum();
             Launcher.start();
         }
-        public void start(){
+	public void start(){
             int[] test = new int[]{3,3,6};
             int target = 6;
             printres(twoSum(test,target));
