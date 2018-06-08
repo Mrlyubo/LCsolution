@@ -1,0 +1,53 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x000000005ffd905a, pid=1328, tid=11572
+#
+# JRE version: Java(TM) SE Runtime Environment (10.0+46) (build 10+46)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (10+46, mixed mode, tiered, compressed oops, g1 gc, windows-amd64)
+# Problematic frame:
+# V  [jvm.dll+0x65905a]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:60774,suspend=y,server=n -javaagent:C:\Users\Administrator\AppData\Local\Temp\capture12296jars\debugger-agent.jar=file:/C:/Users/Administrator/AppData/Local/Temp/capture.props -Dfile.encoding=UTF-8 A
+
+Host: AMD A6-3400M APU with Radeon(tm) HD Graphics, 4 cores, 3G,  Windows 7 , 64 bit Build 7601 (6.1.7601.23864)
+Time: Mon May 21 09:27:48 2018 ?D1¨²¡À¨º¡Á?¨º¡À?? elapsed time: 734 seconds (0d 0h 12m 14s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000003a2800):  JavaThread "main" [_thread_in_vm, id=11572, stack(0x0000000002360000,0x0000000002460000)]
+
+Stack: [0x0000000002360000,0x0000000002460000],  sp=0x000000000245ee90,  free space=1019k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x65905a]
+V  [jvm.dll+0x4a460d]
+V  [jvm.dll+0x4a4ab8]
+V  [jvm.dll+0x364cc4]
+V  [jvm.dll+0x364a2e]
+C  0x000000000dcf5089
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  A.start()V+224
+j  A.main([Ljava/lang/String;)V+9
+v  ~StubRoutines::call_stub
+
+siginfo: EXCEPTION_ACCESS_VIOLATION (0xc0000005), reading address 0x0000000000000000
+
+
+Register to memory mapping:
+
+RIP=0x000000005ffd905a jvm.dll
+RAX=0x0000000000000000 is an unknown value
+RBX=0x0000000021e55950 is an unknown value
+RCX=0x0000000000000000 is an unknown value
+RDX=0x0000000000000000 is an unknown value
+RSP=0x000000000245ee90 is pointing into the stack for thread: 0x00000000003a2800
+RBP=
