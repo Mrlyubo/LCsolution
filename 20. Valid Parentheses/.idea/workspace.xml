@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8db7be50-4ae7-4040-9907-ba7f4a472ecb" name="Default" comment="" />
+    <list default="true" id="7247a203-130c-486e-a68a-762009ee9a90" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reverseList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/reverseList.java">
+      <file leaf-file-name="isValid.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/isValid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+            <state relative-caret-position="304">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -33,7 +33,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/reverseList.java" />
+        <option value="$PROJECT_DIR$/src/isValid.java" />
       </list>
     </option>
   </component>
@@ -46,19 +46,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="206. Reverse Linked List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="206. Reverse Linked List" type="462c0819:PsiDirectoryNode" />
+              <item name="20. Valid Parentheses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20. Valid Parentheses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="206. Reverse Linked List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="206. Reverse Linked List" type="462c0819:PsiDirectoryNode" />
+              <item name="20. Valid Parentheses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20. Valid Parentheses" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -82,7 +82,7 @@
   <component name="RunManager">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A" />
-      <module name="206. Reverse Linked List" />
+      <module name="20. Valid Parentheses" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -137,16 +137,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8db7be50-4ae7-4040-9907-ba7f4a472ecb" name="Default" comment="" />
-      <created>1528471961815</created>
+      <changelist id="7247a203-130c-486e-a68a-762009ee9a90" name="Default" comment="" />
+      <created>1528506543241</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1528471961815</updated>
+      <updated>1528506543241</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -156,19 +157,19 @@
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.22089228" />
       <window_info anchor="bottom" id="Style Checker" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15458423" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Debug" order="8" weight="0.3001066" />
       <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Debug" order="8" weight="0.39925373" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -184,20 +185,20 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/reverseList.java</url>
-          <line>62</line>
+          <url>file://$PROJECT_DIR$/src/isValid.java</url>
+          <line>44</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/reverseList.java">
+    <entry file="file://$PROJECT_DIR$/src/isValid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        <state relative-caret-position="304">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
