@@ -1,9 +1,14 @@
+import java.util.Arrays;
+
 class A { //9ms,75%
     /** corner cases:
      * 1. node without edge: graph[i].length == 0;
-     * 2. graph is separated into 2 or more sub_graphs.
+     * 2. graph may be a disjointed graph, it can be separated into 2 or more sub_graphs.
      *
      * Idea: use an array to map (node->subset)
+     * 0: haven't been map.
+     * 1: map to subset 1.
+     * 2: map to subset 2.
     */
     boolean flag;
     int cnt;
@@ -44,12 +49,54 @@ class A { //9ms,75%
                 if(res[n] == -res[idx]) // when map is matched to previous map, continue;
                     continue;
                 else
-                    flag = false;// when map is conflicted, return false;
+                    flag = false;//If it has been mapped, check if the current map is the same as the map that is going to be used to map it;
             }
         }
     }
 
 
+    //**************************************************
+    // The following way is similar to mine, but it is cleaner and simpler, because it use int color(subset) in the recursive method.
+    // And the concept node and neighbors is related to the graph.
+
+    /**Our goal is trying to use two colors to color the graph and see if there are any adjacent nodes having the same color.
+     Initialize a color[] array for each node. Here are three states for colors[] array:
+     -1: Haven't been colored.
+     0: Blue.
+     1: Red.
+     For each node,
+
+     If it hasn't been colored, use a color to color it. Then use the other color to color all its adjacent nodes (DFS).
+     If it has been colored, check if the current color is the same as the color that is going to be used to color it.
+     *
+     * */
+    public boolean isBipartite1(int[][] graph) {
+        int n = graph.length;
+        int[] colors = new int[n];
+        Arrays.fill(colors, -1);
+
+        for (int i = 0; i < n; i++) {              //This graph might be a disconnected graph. So check each unvisited node.
+            if (colors[i] == -1 && !validColor(graph, colors, 0, i)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean validColor(int[][] graph, int[] colors, int color, int node) {
+        if (colors[node] != -1) {
+            return colors[node] == color;
+        }
+        colors[node] = color;
+        for (int next : graph[node]) {
+            if (!validColor(graph, colors, 1 - color, next)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    //**************************************************
     public static void main(String [] args){
         A Launcher = new A();
         Launcher.start();

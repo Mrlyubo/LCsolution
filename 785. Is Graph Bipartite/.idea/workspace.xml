@@ -18,8 +18,8 @@
       <file leaf-file-name="isBipartite.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/isBipartite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-242">
-              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="-715">
+              <caret line="62" column="88" lean-forward="true" selection-start-line="62" selection-start-column="88" selection-end-line="62" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -49,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="927" />
     <option name="y" value="60" />
     <option name="width" value="656" />
@@ -177,7 +177,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.07692308" side_tool="true" weight="0.31447226" />
-      <window_info active="true" anchor="bottom" x="0" y="375" width="1920" height="290" id="Run" order="2" sideWeight="0.9230769" visible="true" weight="0.14363438" />
+      <window_info anchor="bottom" x="0" y="375" width="1920" height="290" id="Run" order="2" sideWeight="0.9230769" weight="0.18498367" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Style Checker" order="4" weight="0.3297062" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.3297062" />
@@ -318,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/isBipartite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state relative-caret-position="-715">
+          <caret line="62" column="88" lean-forward="true" selection-start-line="62" selection-start-column="88" selection-end-line="62" selection-end-column="88" />
         </state>
       </provider>
     </entry>
