@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="61b_plugin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../61b_plugin/lib/61b_plugin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
