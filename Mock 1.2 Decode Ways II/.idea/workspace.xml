@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="798eb7c5-e382-4007-a2c1-6093eb2530e6" name="Default" comment="" />
+    <list default="true" id="196772b9-6b35-48fa-a8fe-71914a52cdab" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,19 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="49. Group Anagrams" />
-  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="groupAnagrams.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/groupAnagrams.java">
+      <file leaf-file-name="numDecodings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/numDecodings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="363">
+              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -39,7 +33,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/groupAnagrams.java" />
+        <option value="$PROJECT_DIR$/src/numDecodings.java" />
       </list>
     </option>
   </component>
@@ -54,25 +48,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="49. Group Anagrams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="49. Group Anagrams" type="462c0819:PsiDirectoryNode" />
+              <item name="Mock 1.2 Decode Ways II" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mock 1.2 Decode Ways II" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="49. Group Anagrams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="49. Group Anagrams" type="462c0819:PsiDirectoryNode" />
+              <item name="Mock 1.2 Decode Ways II" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mock 1.2 Decode Ways II" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -93,7 +87,7 @@
   <component name="RunManager">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A" />
-      <module name="49. Group Anagrams" />
+      <module name="Mock 1.2 Decode Ways II" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -148,51 +142,42 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="798eb7c5-e382-4007-a2c1-6093eb2530e6" name="Default" comment="" />
-      <created>1528630037077</created>
+      <changelist id="196772b9-6b35-48fa-a8fe-71914a52cdab" name="Default" comment="" />
+      <created>1528766793653</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1528630037077</updated>
+      <updated>1528766793653</updated>
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="TODO" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3297062" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info id="Image Layers" order="0" />
+      <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.07616975" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.2937976" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Style Checker" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.1359275" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info id="Structure" order="5" show_stripe_button="false" side_tool="true" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.35267857" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Debug" order="7" weight="0.39925373" />
-      <window_info id="Favorites" order="4" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Debug" order="7" weight="0.29211086" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
     </layout>
@@ -204,22 +189,20 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/groupAnagrams.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/numDecodings.java</url>
+          <line>61</line>
           <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/groupAnagrams.java">
+    <entry file="file://$PROJECT_DIR$/src/numDecodings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="363">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
         </state>
       </provider>
     </entry>
