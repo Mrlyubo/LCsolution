@@ -1,0 +1,2 @@
+public class partitionLabels {
+}
