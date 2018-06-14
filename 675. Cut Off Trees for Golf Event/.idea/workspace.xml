@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="521a015c-8f17-47b4-bfe9-2147f4d5b87f" name="Default" comment="" />
+    <list default="true" id="f27e252c-e754-4ad8-adc4-efd4e9f4e0c2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="partitionLabels.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/partitionLabels.java">
+      <file leaf-file-name="cutOffTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cutOffTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="-110">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -33,11 +33,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/partitionLabels.java" />
+        <option value="$PROJECT_DIR$/src/cutOffTree.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -48,24 +48,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="763. Partition Labels" type="b2602c69:ProjectViewProjectNode" />
-              <item name="763. Partition Labels" type="462c0819:PsiDirectoryNode" />
+              <item name="675. Cut Off Trees for Golf Event" type="b2602c69:ProjectViewProjectNode" />
+              <item name="675. Cut Off Trees for Golf Event" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="763. Partition Labels" type="b2602c69:ProjectViewProjectNode" />
-              <item name="763. Partition Labels" type="462c0819:PsiDirectoryNode" />
+              <item name="675. Cut Off Trees for Golf Event" type="b2602c69:ProjectViewProjectNode" />
+              <item name="675. Cut Off Trees for Golf Event" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -87,7 +87,7 @@
   <component name="RunManager">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A" />
-      <module name="763. Partition Labels" />
+      <module name="675. Cut Off Trees for Golf Event" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -142,37 +142,37 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="521a015c-8f17-47b4-bfe9-2147f4d5b87f" name="Default" comment="" />
-      <created>1528882988733</created>
+      <changelist id="f27e252c-e754-4ad8-adc4-efd4e9f4e0c2" name="Default" comment="" />
+      <created>1528898335904</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1528882988733</updated>
+      <updated>1528898335904</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3297062" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info id="Image Layers" order="0" />
+      <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.10010882" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.0968444" />
       <window_info anchor="bottom" id="Style Checker" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.09594883" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15191898" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" x="201" y="87" width="1361" height="826" id="Debug" order="7" weight="0.29317698" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" x="471" y="195" width="1334" height="919" id="Debug" order="7" weight="0.120469086" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
@@ -189,26 +189,20 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/partitionLabels.java</url>
-          <line>60</line>
+          <url>file://$PROJECT_DIR$/src/cutOffTree.java</url>
+          <line>124</line>
           <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/partitionLabels.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/partitionLabels.java">
+    <entry file="file://$PROJECT_DIR$/src/cutOffTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="-110">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
