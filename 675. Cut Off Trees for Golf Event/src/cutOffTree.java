@@ -38,7 +38,7 @@ Dist function:
             Collections.sort(trees, (a,b)->a[0]-b[0]);// sort the tree according to its height. 从小到大->a-b
             int ans = 0, sr = 0, sc = 0;
             for(int[] tree: trees){
-                int d = dist(forest,sr,sc,tree[1],tree[2]);
+                int d = hadlocks(forest,sr,sc,tree[1],tree[2]);
                 if(d<0) return -1;
                 ans += d;
                 sr = tree[1];
@@ -46,8 +46,8 @@ Dist function:
             }
             return ans;
         }
-
-        private int dist(List<List<Integer>> forest, int sr, int sc, int tr, int tc){
+//********* BFS ************ use this way next time. simple and clean.
+        private int bfs(List<List<Integer>> forest, int sr, int sc, int tr, int tc){
             Queue<int[]> q = new LinkedList<>();
             int R = forest.size(), C = forest.get(0).size();
             boolean[][] seen = new boolean[R][C];
@@ -62,12 +62,72 @@ Dist function:
                     if(r >= 0 && r < R && c >= 0 && c < C
                     && !seen[r][c] && forest.get(r).get(c) > 0){
                         q.add(new int[]{r,c,cur[2]+1});
-                        seen[r][c] = true;
+                        seen[r][c] = true; // mark the place that had been seen.
                     }
                 }
             }
             return -1;
         }
+ //********* A*
+    public int Astarsearch(List<List<Integer>> forest, int sr, int sc, int tr, int tc) {
+        int R = forest.size(), C = forest.get(0).size();
+        PriorityQueue<int[]> heap = new PriorityQueue<int[]>(
+                (a, b) -> Integer.compare(a[0], b[0])); // poll the node with the minimum n_cost.
+        heap.offer(new int[]{0, 0, sr, sc});
+
+        HashMap<Integer, Integer> cost = new HashMap();
+        cost.put(sr * C + sc, 0);
+
+        while (!heap.isEmpty()) {
+            int[] cur = heap.poll();
+            int g = cur[1], r = cur[2], c = cur[3];
+            if (r == tr && c == tc) return g;
+            for (int di = 0; di < 4; ++di) {
+                int nr = r + dr[di],
+                    nc = c + dc[di];
+                if (0 <= nr && nr < R && 0 <= nc && nc < C && forest.get(nr).get(nc) > 0) {
+                    int ncost = g + 1 + Math.abs(nr-tr) + Math.abs(nc-tc);
+                    //ncost = walked distance +  estimated left distance (use taxicab distance).
+                    //because the taxicab distance is the possible minimum distance.
+                    //https://en.wikipedia.org/wiki/File:Dijkstra_Animation.gif
+                    if (ncost < cost.getOrDefault(nr * C + nc, 9999)) { // choose the right direction.
+                        cost.put(nr * C + nc, ncost);//it will build a 1D map_key without duplicate from a 2D coordinate.
+                        heap.offer(new int[]{ncost, g+1, nr, nc});
+                    }
+                }
+            }
+        }
+        return -1;
+    }
+    //********* hadlocks
+    public int hadlocks(List<List<Integer>> forest, int sr, int sc, int tr, int tc) {
+        int R = forest.size(), C = forest.get(0).size();
+        Set<Integer> processed = new HashSet();
+        Deque<int[]> deque = new ArrayDeque();
+        deque.offerFirst(new int[]{0, sr, sc});
+        while (!deque.isEmpty()) {
+            int[] cur = deque.pollFirst();
+            int detours = cur[0], r = cur[1], c = cur[2];
+            if (!processed.contains(r*C + c)) {
+                processed.add(r*C + c);
+                if (r == tr && c == tc) {
+                    return Math.abs(sr-tr) + Math.abs(sc-tc) + 2 * detours;
+                }
+                for (int di = 0; di < 4; ++di) {
+                    int nr = r + dr[di];
+                    int nc = c + dc[di];
+                    boolean closer;
+                    if (di <= 1) closer = di == 0 ? r > tr : r < tr;
+                    else closer = di == 2 ? c > tc : c < tc;
+                    if (0 <= nr && nr < R && 0 <= nc && nc < C && forest.get(nr).get(nc) > 0) {
+                        if (closer) deque.offerFirst(new int[]{detours, nr, nc});
+                        else deque.offerLast(new int[]{detours+1, nr, nc}); // offerLAST for detours.
+                    }
+                }
+            }
+        }
+        return -1;
+    }
 
 
 
@@ -125,3 +185,26 @@ Dist function:
         System.out.println(cutOffTree(forest2));
     }
 }
+
+/*
+ why use Map.Entry( nr * C + nc, ncost )?
+ Because it will build a 1D map_key without duplicate from a 2D coordinate.
+
+class B {
+    public List<Integer> list(int r, int c){
+        List<Integer> list = new LinkedList<>();
+        for(int i = 0; i < r; i++)
+            for(int j = 0; j < c ; j++ )
+                list.add(i * c + j);
+        return list;
+    }
+
+    public static void main(String [] args){
+        A Launcher = new A();
+        Launcher.start();
+    }
+    public void start(){
+        int r = 4, c = 3;
+        System.out.println(list(r,c));
+    }
+}*/
