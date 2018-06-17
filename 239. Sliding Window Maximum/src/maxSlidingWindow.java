@@ -1,6 +1,6 @@
-import java.util.HashSet;
+
 import java.util.*;
-import java.util.Set;
+
 
 class Solution {
 
@@ -28,9 +28,11 @@ class Solution {
             else if(nums[i-1]<ret[i-1]){
                 ret[i] = ret[i-1];
             }
-            else{
+            else/*(nums[i-1] == res[i-1])*/{
                 for(int j = i; j < i+k; ++j){
-                    if(ret[i] < nums[j]){
+                    // O(n*k) , but in practice it is very fast.
+                    // because it doesn't happen very ofen for the third case.
+                     if(ret[i] < nums[j]){
                         ret[i] = nums[j];
                     }
                 }
