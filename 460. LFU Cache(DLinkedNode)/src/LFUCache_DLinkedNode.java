@@ -1,7 +1,7 @@
 import java.util.*;
 
 class LFUCache {
-
+// Use my Approach, this way is too complicated.
     class DLinkedNode {
         int count;
         LinkedHashSet<Integer> keySet;

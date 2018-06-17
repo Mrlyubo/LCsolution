@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a1d8f14-f069-49b4-9fea-bc7313d129f7" name="Default" comment="" />
+    <list default="true" id="9c3ad97b-0d39-4548-acdb-97e0dc7320e8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LFUCache_DLinkedNode.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LFUCache_DLinkedNode.java">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2043">
-              <caret line="117" column="47" lean-forward="true" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
+            <state relative-caret-position="220">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,7 +36,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LFUCache_DLinkedNode.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
       </list>
     </option>
   </component>
@@ -48,19 +51,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="460. LFU Cache(DLinkedNode)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="460. LFU Cache(DLinkedNode)" type="462c0819:PsiDirectoryNode" />
+              <item name="387. First Unique Character in a String" type="b2602c69:ProjectViewProjectNode" />
+              <item name="387. First Unique Character in a String" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="460. LFU Cache(DLinkedNode)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="460. LFU Cache(DLinkedNode)" type="462c0819:PsiDirectoryNode" />
+              <item name="387. First Unique Character in a String" type="b2602c69:ProjectViewProjectNode" />
+              <item name="387. First Unique Character in a String" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -85,9 +88,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="LFUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LFUCache" />
-      <module name="460. LFU Cache(DLinkedNode)" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="387. First Unique Character in a String" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -133,7 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LFUCache" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -142,11 +145,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7a1d8f14-f069-49b4-9fea-bc7313d129f7" name="Default" comment="" />
-      <created>1529238513840</created>
+      <changelist id="9c3ad97b-0d39-4548-acdb-97e0dc7320e8" name="Default" comment="" />
+      <created>1529240417446</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1529238513840</updated>
+      <updated>1529240417446</updated>
     </task>
     <servers />
   </component>
@@ -161,18 +164,18 @@
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3743199" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="Style Checker" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.10501066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Debug" order="7" visible="true" weight="0.42430705" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Debug" order="7" weight="0.5522388" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
@@ -189,8 +192,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LFUCache_DLinkedNode.java</url>
-          <line>98</line>
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>45</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -198,10 +201,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LFUCache_DLinkedNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2043">
-          <caret line="117" column="47" lean-forward="true" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
+        <state relative-caret-position="220">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
