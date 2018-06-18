@@ -10,9 +10,7 @@ class Codec {
       }
     // Encodes a tree to a single string.
 
-    private static final String spliter = ",";
-    private static final String NN = "null";
-    private static int idx = 0;
+
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
@@ -31,7 +29,9 @@ class Codec {
         }
     }
 
-
+    private static final String spliter = ",";
+    private static final String NN = "null";
+    private static int idx = 0;
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
         idx = 0;
@@ -53,7 +53,7 @@ class Codec {
           Launcher.start();
     }
      public void start(){
-          TreeNode root = new TreeNode(1);
+          /*TreeNode root = new TreeNode(1);
           root.left = new TreeNode(2);
           root.right = new TreeNode(3);
           root.right.left = new TreeNode(4);
@@ -66,7 +66,19 @@ class Codec {
           data4.add(1);
           data4.add(null);
           data4.add(2);
-          //System.out.println( serialize(deserialize(data3)));
+          //System.out.println( serialize(deserialize(data3)));*/
+
+         TreeNode root3 = new TreeNode(1);
+         root3.left = new TreeNode(2);
+         root3.left.left = new TreeNode(4);
+         root3.left.right = new TreeNode(5);
+         root3.left.right.left = new TreeNode(7);
+         root3.left.right.right = new TreeNode(8);
+         root3.right = new TreeNode(3);
+         root3.right.left = new TreeNode(6);
+         root3.right.left.left = new TreeNode(9);
+         root3.right.left.right = new TreeNode(10);
+         System.out.println(serialize(root3));
      }
 
 }
