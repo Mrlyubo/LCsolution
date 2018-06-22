@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1122a41a-b045-4b01-9bbe-02f99e7d504a" name="Default" comment="" />
+    <list default="true" id="0e2a5a4b-1ecf-4b40-b484-6412fc500f87" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,15 +12,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RandomizedSet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/RandomizedSet.java">
+      <file leaf-file-name="RandomizedSet .java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RandomizedSet .java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="220">
+              <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2083#2084#0" expanded="true" />
-                <element signature="e#2143#2144#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,7 +37,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/RandomizedSet.java" />
+        <option value="$PROJECT_DIR$/src/RandomizedSet .java" />
       </list>
     </option>
   </component>
@@ -53,25 +52,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="380. Insert Delete GetRandom O(1)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="380. Insert Delete GetRandom O(1)" type="462c0819:PsiDirectoryNode" />
+              <item name="380. Insert Delete GetRandom O(1)-HashSet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="380. Insert Delete GetRandom O(1)-HashSet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="380. Insert Delete GetRandom O(1)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="380. Insert Delete GetRandom O(1)" type="462c0819:PsiDirectoryNode" />
+              <item name="380. Insert Delete GetRandom O(1)-HashSet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="380. Insert Delete GetRandom O(1)-HashSet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -92,7 +91,7 @@
   <component name="RunManager">
     <configuration name="RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RandomizedSet" />
-      <module name="380. Insert Delete GetRandom O(1)" />
+      <module name="380. Insert Delete GetRandom O(1)-HashSet" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -147,11 +146,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1122a41a-b045-4b01-9bbe-02f99e7d504a" name="Default" comment="" />
-      <created>1529423339713</created>
+      <changelist id="0e2a5a4b-1ecf-4b40-b484-6412fc500f87" name="Default" comment="" />
+      <created>1529463363450</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1529423339713</updated>
+      <updated>1529463363450</updated>
     </task>
     <servers />
   </component>
@@ -167,12 +166,12 @@
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.1218716" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="Style Checker" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17590618" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -194,23 +193,23 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RandomizedSet.java</url>
-          <line>66</line>
+          <url>file://$PROJECT_DIR$/src/RandomizedSet .java</url>
+          <line>44</line>
           <properties />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RandomizedSet.java">
+    <entry file="file://$PROJECT_DIR$/src/RandomizedSet .java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="220">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#2143#2144#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
           </folding>
         </state>
       </provider>

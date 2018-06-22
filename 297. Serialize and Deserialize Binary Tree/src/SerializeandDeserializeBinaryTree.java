@@ -85,7 +85,7 @@ class Codec {
                 num = Integer.parseInt(s);
             else {
                 i++;
-                if(i%2 == 0)currNode = node.poll();
+                if(i%2 == 0) currNode = node.poll();
                 continue;
             }
             if(i == 0) {
@@ -94,8 +94,9 @@ class Codec {
                 i++;
                 continue;
             }
-            if(i%2 == 1)currNode = node.poll();
+            //if(i%2 == 1)  currNode = node.poll();  
             if(i%2 == 1){
+                currNode = node.poll();
                 currNode.left = new TreeNode(num);
                 node.add(currNode.left);
             }
