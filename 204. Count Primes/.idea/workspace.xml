@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51115662-a555-4ec6-80f6-7afac1110a2c" name="Default" comment="" />
+    <list default="true" id="3470c95d-d548-4b35-b9e9-1453d097efb2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hasCycle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hasCycle.java">
+      <file leaf-file-name="countPrimes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/countPrimes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -33,7 +33,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hasCycle.java" />
+        <option value="$PROJECT_DIR$/src/countPrimes.java" />
       </list>
     </option>
   </component>
@@ -48,23 +48,23 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="141. Linked List Cycle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="141. Linked List Cycle" type="462c0819:PsiDirectoryNode" />
+              <item name="204. Count Primes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="204. Count Primes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="141. Linked List Cycle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="141. Linked List Cycle" type="462c0819:PsiDirectoryNode" />
+              <item name="204. Count Primes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="204. Count Primes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -86,7 +86,7 @@
   <component name="RunManager">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="141. Linked List Cycle" />
+      <module name="204. Count Primes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -141,11 +141,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="51115662-a555-4ec6-80f6-7afac1110a2c" name="Default" comment="" />
-      <created>1529639891490</created>
+      <changelist id="3470c95d-d548-4b35-b9e9-1453d097efb2" name="Default" comment="" />
+      <created>1529681535794</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1529639891490</updated>
+      <updated>1529681535794</updated>
     </task>
     <servers />
   </component>
@@ -155,23 +155,23 @@
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3294893" />
+      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.085667215" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.07578254" />
       <window_info anchor="bottom" id="Style Checker" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18154311" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Debug" order="7" weight="0.29727685" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Debug" order="7" weight="0.5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
@@ -186,22 +186,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hasCycle.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hasCycle.java">
+    <entry file="file://$PROJECT_DIR$/src/countPrimes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
