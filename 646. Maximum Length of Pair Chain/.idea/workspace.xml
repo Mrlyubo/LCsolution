@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0be4181a-4638-4f54-afe0-40013284c77d" name="Default" comment="" />
+    <list default="true" id="6777f2b1-0b08-4100-a1d5-c972741b6cfc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <file leaf-file-name="findLongestChain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/findLongestChain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="60" selection-end-column="46" />
+            <state relative-caret-position="220">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,6 +39,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/findLongestChain.java" />
       </list>
     </option>
   </component>
@@ -47,24 +53,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="numDistinctIslands" type="b2602c69:ProjectViewProjectNode" />
-              <item name="numDistinctIslands" type="462c0819:PsiDirectoryNode" />
+              <item name="646. Maximum Length of Pair Chain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="646. Maximum Length of Pair Chain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="numDistinctIslands" type="b2602c69:ProjectViewProjectNode" />
-              <item name="numDistinctIslands" type="462c0819:PsiDirectoryNode" />
+              <item name="646. Maximum Length of Pair Chain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="646. Maximum Length of Pair Chain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -86,7 +92,7 @@
   <component name="RunManager">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="numDistinctIslands" />
+      <module name="646. Maximum Length of Pair Chain" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -141,37 +147,37 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0be4181a-4638-4f54-afe0-40013284c77d" name="Default" comment="" />
-      <created>1529725399369</created>
+      <changelist id="6777f2b1-0b08-4100-a1d5-c972741b6cfc" name="Default" comment="" />
+      <created>1529847749136</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1529725399369</updated>
+      <updated>1529847749136</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info id="Image Layers" />
+      <window_info id="Image Layers" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.05107084" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="Style Checker" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25416037" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.25266525" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Debug" order="7" weight="0.15885022" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" id="Debug" order="7" weight="0.39925373" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
@@ -188,8 +194,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>52</line>
+          <url>file://$PROJECT_DIR$/src/findLongestChain.java</url>
+          <line>32</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -197,10 +203,15 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/findLongestChain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="60" selection-end-column="46" />
+        <state relative-caret-position="220">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

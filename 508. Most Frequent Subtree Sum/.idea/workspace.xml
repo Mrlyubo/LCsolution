@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0be4181a-4638-4f54-afe0-40013284c77d" name="Default" comment="" />
+    <list default="true" id="aa32be40-c7e9-481e-8180-ed197495e4de" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <file leaf-file-name="findFrequentTreeSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/findFrequentTreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="60" selection-end-column="46" />
+            <state relative-caret-position="594">
+              <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -33,7 +33,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/findFrequentTreeSum.java" />
       </list>
     </option>
   </component>
@@ -52,12 +52,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="numDistinctIslands" type="b2602c69:ProjectViewProjectNode" />
-              <item name="numDistinctIslands" type="462c0819:PsiDirectoryNode" />
+              <item name="508. Most Frequent Subtree Sum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="508. Most Frequent Subtree Sum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="numDistinctIslands" type="b2602c69:ProjectViewProjectNode" />
-              <item name="numDistinctIslands" type="462c0819:PsiDirectoryNode" />
+              <item name="508. Most Frequent Subtree Sum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="508. Most Frequent Subtree Sum" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -86,7 +86,7 @@
   <component name="RunManager">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="numDistinctIslands" />
+      <module name="508. Most Frequent Subtree Sum" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -141,16 +141,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0be4181a-4638-4f54-afe0-40013284c77d" name="Default" comment="" />
-      <created>1529725399369</created>
+      <changelist id="aa32be40-c7e9-481e-8180-ed197495e4de" name="Default" comment="" />
+      <created>1529812011396</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1529725399369</updated>
+      <updated>1529812011396</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
@@ -159,19 +159,19 @@
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.05107084" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49946696" weight="0.04570185" />
       <window_info anchor="bottom" id="Style Checker" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Debug" order="7" weight="0.15885022" />
+      <window_info anchor="right" id="Debug" order="7" weight="0.17170954" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
@@ -180,6 +180,33 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Style Checker" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -188,8 +215,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>52</line>
+          <url>file://$PROJECT_DIR$/src/findFrequentTreeSum.java</url>
+          <line>90</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -197,10 +224,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/findFrequentTreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="60" selection-end-column="46" />
+        <state relative-caret-position="594">
+          <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
         </state>
       </provider>
     </entry>
