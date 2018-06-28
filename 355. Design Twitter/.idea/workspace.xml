@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="432c1545-57f8-40eb-adc0-d2212d93bcf7" name="Default" comment="" />
+    <list default="true" id="fecae958-7a09-4d9c-82bd-6cca55520dbb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="convertBST.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/convertBST.java">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="17" column="94" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
+            <state relative-caret-position="352">
+              <caret line="100" column="9" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+              <folding>
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#2353#2360#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,15 +39,25 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tofollowee</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>followerto</replace>
+      <replace>followeeto</replace>
+    </replaceStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/convertBST.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="765" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="602" />
     <option name="height" value="726" />
   </component>
@@ -51,20 +70,20 @@
         <subPane>
           <expand>
             <path>
-              <item name="538. Convert BST to Greater Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="538. Convert BST to Greater Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="355. Design Twitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="355. Design Twitter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="538. Convert BST to Greater Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="538. Convert BST to Greater Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="355. Design Twitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="355. Design Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -84,9 +103,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="538. Convert BST to Greater Tree" />
+    <configuration name="Twitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Twitter" />
+      <module name="355. Design Twitter" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -132,7 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Twitter" />
       </list>
     </recent_temporary>
   </component>
@@ -141,11 +160,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="432c1545-57f8-40eb-adc0-d2212d93bcf7" name="Default" comment="" />
-      <created>1529922384303</created>
+      <changelist id="fecae958-7a09-4d9c-82bd-6cca55520dbb" name="Default" comment="" />
+      <created>1529998821045</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1529922384303</updated>
+      <updated>1529998821045</updated>
     </task>
     <servers />
   </component>
@@ -160,18 +179,18 @@
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.20130576" />
       <window_info anchor="bottom" id="Style Checker" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.05321391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Debug" order="7" weight="0.19509594" />
       <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Debug" order="7" weight="0.3022388" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -188,19 +207,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/convertBST.java</url>
-          <line>40</line>
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>154</line>
           <properties />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/convertBST.java">
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="17" column="94" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
+        <state relative-caret-position="352">
+          <caret line="100" column="9" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+          <folding>
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#2353#2360#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
