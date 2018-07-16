@@ -1,6 +1,7 @@
 import java.util.*;
 
 class AutocompleteSystem {
+    //TireNode 的结构： childrenMap, countsMap, isWord.
     class TrieNode {
         Map<Character, TrieNode> children;
         Map<String, Integer> counts;
@@ -40,6 +41,7 @@ class AutocompleteSystem {
             }
             curr = next;
             curr.counts.put(s, curr.counts.getOrDefault(s,0)+count);// miss s
+            //注意，每一步都要记录完整的string，这样便于搜索。
         }
         curr.isWord = true;
     }
@@ -61,10 +63,11 @@ class AutocompleteSystem {
             curr = next;
         }
 
-        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> (a.c == b.c ? a.s.compareTo(b.s) : b.c - a.c));//
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> (a.c == b.c ?
+         a.s.compareTo(b.s) : b.c - a.c));//
         List<String> res = new ArrayList<>();
         for(String s : curr.counts.keySet()){
-            pq.add(new Pair(s,curr.counts.get(s)));
+            pq.add(new Pair(s, curr.counts.get(s)));
         }
         for(int i = 0; i < 3 && !pq.isEmpty(); i++){
             res.add(pq.poll().s);// miss .s

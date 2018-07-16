@@ -1,7 +1,8 @@
 import java.util.*;
 
 class AutocompleteSystem {
-    // This MapEntry works better because the complete sentences will be less than 100, no need to use TrieNode.
+    // This MapEntry works better because the complete sentences will be less than 100,
+    // no need to use TrieNode.
     // However, the startsWith method is kind of cheating. It is so simple.
     private Map<String, Integer> map = new HashMap<>();
     private StringBuilder build = new StringBuilder ();
@@ -26,7 +27,8 @@ class AutocompleteSystem {
                         answers.add (e);
 
                 Collections.sort
-                        (answers,  (a, b) -> (a.getValue() == b.getValue()) ? a.getKey ().compareTo (b.getKey ()) : b.getValue() - a.getValue());
+                        (answers,  (a, b) -> (a.getValue() == b.getValue()) ? 
+                            a.getKey ().compareTo (b.getKey ()) : b.getValue() - a.getValue());
             } else { // remove mapEntry that is not suitable.
                 for (Iterator <Map.Entry <String, Integer>> itr = answers.iterator (); itr.hasNext();)
                     if (!itr.next().getKey().startsWith (build.toString ()))
