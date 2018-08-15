@@ -1,0 +1,92 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x000001d86b1f9887, pid=2096, tid=106540
+#
+# JRE version: Java(TM) SE Runtime Environment (10.0+46) (build 10+46)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (10+46, mixed mode, tiered, compressed oops, g1 gc, windows-amd64)
+# Problematic frame:
+# j  MedianFinder.rotateRight()V+55
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:11067,suspend=y,server=n -javaagent:C:\Users\Mr.Lyu\Downloads\ideaIC-2018.2.win\lib\rt\debugger-agent.jar=file:/C:/Users/Mr.Lyu/AppData/Local/Temp/capture.props -Dfile.encoding=UTF-8 MedianFinder
+
+Host: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 8 cores, 7G,  Windows 10 , 64 bit Build 17134 (10.0.17134.1)
+Time: Wed Aug 15 09:45:38 2018 ?D1¨²¡À¨º¡Á?¨º¡À?? elapsed time: 635 seconds (0d 0h 10m 35s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001d85e315000):  JavaThread "main" [_thread_in_Java, id=106540, stack(0x000000563be00000,0x000000563bf00000)]
+
+Stack: [0x000000563be00000,0x000000563bf00000],  sp=0x000000563beff618,  free space=1021k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  0x000001d86b1f9887
+
+
+siginfo: EXCEPTION_ACCESS_VIOLATION (0xc0000005), reading address 0x00002d00898256bc
+
+
+Register to memory mapping:
+
+RIP=0x000001d86b1f9887 is at code_begin+1799 in an Interpreter codelet
+getfield  180 getfield  [0x000001d86b1f9180, 0x000001d86b1fa480]  4864 bytes
+RAX=0x0000000000000008 is an unknown value
+RBX=0x00002d0000000014 is an unknown value
+RCX=0x000001d8027a4060 is pointing into metadata
+RDX=0x000000000000000c is an unknown value
+RSP=0x000000563beff618 is pointing into the stack for thread: 0x000001d85e315000
+RBP=0x000000563beff660 is pointing into the stack for thread: 0x000001d85e315000
+RSI=0x0000000000000000 is an unknown value
+RDI=0x0000000000200021 is an unknown value
+R8 =0x0000000000000008 is an unknown value
+R9 =0x00000000898256a8 is an oop
+MedianFinder 
+{0x00000000898256a8} - klass: 'MedianFinder'
+R10=0x0000000064051b78 jvm.dll
+R11=0x000000563beff390 is pointing into the stack for thread: 0x000001d85e315000
+R12=0x0000000000000000 is an unknown value
+R13=0x000001d8027a38b7 is pointing into metadata
+R14=0x000000563beff680 is pointing into the stack for thread: 0x000001d85e315000
+R15=0x000001d85e315000 is a thread
+
+
+Registers:
+RAX=0x0000000000000008, RBX=0x00002d0000000014, RCX=0x000001d8027a4060, RDX=0x000000000000000c
+RSP=0x000000563beff618, RBP=0x000000563beff660, RSI=0x0000000000000000, RDI=0x0000000000200021
+R8 =0x0000000000000008, R9 =0x00000000898256a8, R10=0x0000000064051b78, R11=0x000000563beff390
+R12=0x0000000000000000, R13=0x000001d8027a38b7, R14=0x000000563beff680, R15=0x000001d85e315000
+RIP=0x000001d86b1f9887, EFLAGS=0x0000000000010246
+
+Top of Stack: (sp=0x000000563beff618)
+0x000000563beff618:   000000563beff618 000001d8027a38b7
+0x000000563beff628:   000000563beff680 000001d8027a4060
+0x000000563beff638:   0000000000000000 00000000898224d8
+0x000000563beff648:   000001d8027a3908 0000000000000000
+0x000000563beff658:   000000563beff680 000000563beff6d0
+0x000000563beff668:   000001d86b1dcc48 0000000089740920
+0x000000563beff678:   00000000898256c0 00000000898256a8
+0x000000563beff688:   000000563beff688 000001d8027a3791
+0x000000563beff698:   000000563beff6e8 000001d8027a4060
+0x000000563beff6a8:   0000000000000000 00000000898224d8
+0x000000563beff6b8:   000001d8027a37d8 000000563beff680
+0x000000563beff6c8:   000000563beff6e0 000000563beff738
+0x000000563beff6d8:   000001d86b1dcc48 00000000fffffffd
+0x000000563beff6e8:   00000000898256a8 000000563beff6f0
+0x000000563beff6f8:   000001d8027a3f1c 000000563beff750
+0x000000563beff708:   000001d8027a4060 0000000000000000 
+
+Instructions: (pc=0x000001d86b1f9887)
+0x000001d86b1f9867:   74 fd ff 4c 8b 6d c0 4c 8b 75 c8 c3 eb 04 45 88
+0x000001d86b1f9877:   4d 00 e9 d9 0b 00 00 83 f8 08 0f 85 a4 01 00 00
+0x000001d86b1f9887:   41 8b 04 19 50 41 b9 cb 00 00 00 41 0f b6 5d 00
+0x000001d86b1f9897:   81 fb ca 00 00 00 0f 85 7f 01 00 00 48 8b 5d e8 
+
+
+getfield  180 getfield  [0x000001d86b1f9180, 0x000001d86b1fa480]  4864 bytes
